@@ -4,8 +4,8 @@ import re
 import zipfile
 import os
 
-ZIP_DIR = r"C:\Users\jrich\OneDrive\Desktop\Rail Passengers Association\01_Received_Info\All Roads All States"
-GDB_PATH = r"C:\Users\jrich\OneDrive\Desktop\Rail Passengers Association\01_Received_Info\All Roads All States\TIGER2025_STATE_ROADS.gdb"
+ZIP_DIR = r"C:\path\to\your\data"
+GDB_PATH = r"C:\path\to\your\data\TIGER2025_STATE_ROADS.gdb"
 
 # create GDB if it doesn't exist
 if not arcpy.Exists(GDB_PATH):

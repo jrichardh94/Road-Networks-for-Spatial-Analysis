@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 import requests
 
 BASE_URL = "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/"
-OUT_DIR = Path(r"C:\Users\jrich\OneDrive\Desktop\Rail Passengers Association\01_Received_Info\All Roads All States")
+OUT_DIR = Path(r"C:\path\to\your\data")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MAX_RETRIES = 5

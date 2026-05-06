@@ -1,26 +1,3 @@
-# Creating primary/secondary/tertiary road shapefiles for each US State and Territory
-
-## Overview
-This project retrieves county-level road shapefiles for all 3,200+ counties and counties-equivalent in the United States for spatial transportation analyses
-
-## Objective
-The Census Bureau allows for primary roads to be downloaded via a nationalwide shapefile. Secondary roads can be downloaded for each state. Beyond these two levels, “All Roads” are available on the Census FTP website as countywide shapefiles. The objective is to retrieve all roads for all 3,200+ counties, and then merge them into statewide/territory-wide shapefiles.
-
-## Methodology
-- Download each county and county-equivalent roads shapefile from the Census Tiger/Line FTP. (allRoads_allStates.py)
-- Extract all shapefiles from downloaded zip folders (allStates_to_geopackage.py)
-- Merge shapefiles by US State or Territory (allStates_to_geopackage.py)
-
-## Tools Used
-- Python
-- ArcGIS Pro (arcPython)
-
-## Example Output
-(TBC)
-
-## Key Insight
-A nationwide “All Roads” shapefile is inadvisable due to file size limitations which cause limitations on geoprocessing speeds. Statewide/territory-wide shapefiles are large enough to avoid dozens (or hundreds) of shapefiles per state, while being robust enough for input into geoprocessing tools.
- 
 # Creating Primary, Secondary, and Tertiary Road Shapefiles for Each U.S. State and Territory
 
 ## Overview

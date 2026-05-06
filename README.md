@@ -16,7 +16,8 @@ While the Census Bureau provides national and state-level datasets for primary a
 - ArcGIS Pro / ArcPy (spatial processing and geoprocessing workflows)
 
 ## Example Output
-(Insert 1–2 images of maps or charts)
+<img width="991" height="503" alt="image" src="https://github.com/user-attachments/assets/ad16ccc5-75c5-4940-81f9-68c744fa5c63" />
+Note that the Census API denied access to several counties throughout the nation, resulting in gaps in true nationwide coverage.
 
 ## Key Insight
 Processing road data at a statewide scale provides an optimal balance between data granularity and performance. National datasets are too large for efficient geoprocessing, while county-level datasets create fragmentation. State-level aggregation enables scalable spatial analysis while maintaining sufficient detail for modeling and decision-making.
